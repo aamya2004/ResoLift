@@ -6,16 +6,17 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Home from '../pages/Home';
+import Home from './Home'
+import Upload from './Pages/Upload';
 const App = () => {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />}/>
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element = {<Home />}></Route>
+        <Route path="/Upload" element = {<Upload />}></Route>
+        
+      </Routes>
+    </BrowserRouter>
   )
 }
 
