@@ -5,7 +5,6 @@ const Header = () => {
   return (
     <>
       <div className='text-2xl text-white font-sans font-bold tracking-wider text-center mt-6'>ResoLift</div>
-      <Body />
     </>
   )
 }

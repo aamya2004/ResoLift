@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
+import Slider from './Slider';
 
 const Body = () => {
     const navigate = useNavigate();
@@ -29,6 +30,9 @@ const Body = () => {
                 w-60 font-bold relative top-[180px] left-[120px] '>Upload</button>
                 
             </div>
+        </div>
+        <div>
+           <Slider /> 
         </div>
     </div>
   )
